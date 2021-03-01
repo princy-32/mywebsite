@@ -11,22 +11,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  username: any;
-  password : any;
 
   constructor(private route: Router) { }
 
-
   
   onSubmit(f: NgForm) {
-   // console.log(f.value);  
-  //  console.log(f.valid);  
-  if(this.username=="Admin@ex.com" && this.password=="123456")
-  {
-     this.route.navigateByUrl('/dashboard');
-   }
-  
-    
+    console.log(f.value);  
+    console.log(f.valid);  
+    this.route.navigateByUrl('/dashboard');
     }
 
    
