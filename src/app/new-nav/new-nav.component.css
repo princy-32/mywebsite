@@ -1,0 +1,8 @@
+
+.spacer{
+    justify-content: right;
+    flex: 6 6;
+}
+.nav-link{
+    color: black;
+}

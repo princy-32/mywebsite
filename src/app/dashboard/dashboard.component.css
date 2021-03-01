@@ -1,0 +1,8 @@
+.dash{
+    padding-top: 20px;
+    width:fit-content ;
+   padding-left: 10%;
+}
+mat-toolbar{
+    background-color: cornflowerblue;
+}
