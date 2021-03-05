@@ -1,0 +1,24 @@
+.img{ 
+    position: relative;
+    display: block;
+  background: url("../assets/images/background.jpg");
+     height: 93%; 
+   color:black; 
+   background-size: cover;  
+}
+
+.para{
+    padding-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+
+}
+.btn{
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
